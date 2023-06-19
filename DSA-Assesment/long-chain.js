@@ -23,7 +23,7 @@ function LongestChain(char) {
     return longestChain; // return the value
   }
   
-  const char = "00000111110101001111100001001";
+   const char = "00000111110101001111100001001";
   const longestChain = LongestChain(char);
   console.log("The longestChain is:", longestChain);
   
