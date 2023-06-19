@@ -23,7 +23,8 @@ const App = () => {
   const sendMessage = () => {
     // Emit event to server
     socket.emit('chatMessage', message);
-  };
+  }
+
 
   return (
     <div>
